@@ -18,7 +18,7 @@ outline: none;
 
 .main-container{
 	width: 1004px;
-	min-height: 520px;
+	min-height: 50px;
 	margin: 25px auto;
 	border: solid 3px var(--azul);
 	border-radius: 9px;
@@ -26,9 +26,10 @@ outline: none;
 
 header{
 	margin: 0px auto;
-	margin-left: 130px;
+	margin-left: 250px;
 	margin-top: 10px; 
-	max-width: 930px;
+	margin-bottom: 25px;
+	max-width: 600px;
 	display: flex;
     align-items: center;
     justify-content: center;
@@ -39,8 +40,8 @@ header > h1{
 	background-color: var(--azul);
 	color: white;
 	font-weight: bolder;
-	font-size: 26px;
-	padding: 26px;
+	font-size: 23px;
+	padding: 20px;
 	border-radius: 35px;
 }
 
@@ -237,7 +238,7 @@ border: 2px dashed var(--azul);
 
 .form-footer > *{
 	display: block;
-	margin-top: 14px;
+	margin-top: 11px;
 	height: 50px;
 	background-color: white;
 	cursor: pointer;
@@ -258,7 +259,7 @@ border: 2px dashed var(--azul);
 	padding:5px;
     width: 50%;
     color:red;
-    margin-left: 61px;
+    margin-left: 69px;
 }
 
 #confirmar:hover{
