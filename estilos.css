@@ -29,7 +29,7 @@ nav > ul > li > ul > li > a{
     font-family:Tahoma;
     text-decoration: underline;
     text-underline-offset: 6px;
-    font-size: 26px;
+    font-size: 23px;
     transition: all 300ms;
 }
 
@@ -45,13 +45,13 @@ nav > ul > li > ul > li > a:hover {
 #nav-header img {
     height: 63px;
     width: 119px;
-    margin-top: 26px;
-    margin-left: 225px;
+    margin-top: 38px;
+    margin-left: 235px;
 }
 
 #nav-main{
-    padding-top: 54px;
-    padding-right: 142px;
+    padding-top: 74px;
+    padding-right: 150px;
 }
 
 #nav-main > ul > li {
@@ -91,8 +91,8 @@ nav > ul > li > ul > li > a:hover {
 
 #capa-titular-section button[type="button"]{
     display: block;
-    width: 196px;
-    height: 43px ;
+    width: 170px;
+    height: 34px ;
     font-family: 'Roboto';
     margin-top: 9px;
     background-color: black;
@@ -118,7 +118,7 @@ h1{
 }
 
 #section-imgs{
-    margin-top:60px;
+    margin-top:50px;
 }
 
 #section-imgs h2{
