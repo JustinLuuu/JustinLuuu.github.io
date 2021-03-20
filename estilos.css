@@ -1,0 +1,218 @@
+/* INICIO RESET */
+*{
+    margin:0px;
+    padding:0px;
+    outline: none;
+}
+
+a {
+    text-decoration: none;  
+}
+
+/*FIN RESET*/
+
+body{
+    background-color: black;
+}
+
+nav{
+    height: 79px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav > ul > li > ul > li > a{
+    color:white;
+    font-family:Tahoma;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    font-size: 26px;
+    transition: all 300ms;
+}
+
+nav > ul > li > ul > li > a:hover {
+    text-decoration: rgb(42, 112, 165) underline;
+}
+
+#nav-header,
+#nav-main{
+    width: 50%; 
+}
+
+#nav-header img {
+    height: 63px;
+    width: 119px;
+    margin-top: 26px;
+    margin-left: 225px;
+}
+
+#nav-main{
+    padding-top: 54px;
+    padding-right: 142px;
+}
+
+#nav-main > ul > li {
+    padding-left: 54px;
+}
+
+#nav-main > ul{
+ margin-left: 65px;
+}
+
+#section-main{
+    width: 1005px;
+    height: 412px;
+    margin:auto;
+    margin-top: 59px;
+    background:url('https://besthqwallpapers.com/Uploads/11-12-2016/10637/thumb2-brisbane-4k-sunset-buildings-queensland.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    border-radius: 70px 70px 70px 70px;
+    
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#capa-titular-section{
+    width: 829px;
+    height: 324px;
+    background-color: rgba(181, 172, 172, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#capa-titular-section button[type="button"]{
+    display: block;
+    width: 196px;
+    height: 43px ;
+    font-family: 'Roboto';
+    margin-top: 9px;
+    background-color: black;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+#capa-titular-section button[type="button"]:hover{
+    box-shadow: blue 0px 0px 6px;
+ }
+
+#capa-titular-section button[type="button"]:active{
+   color:red;
+   letter-spacing: 1px;
+   box-shadow: red 0px 0px 6px;
+}   
+
+h1{
+    font-family: 'Josefin Sans';
+    font-size: 37px;
+    letter-spacing: 4px;
+}
+
+#section-imgs{
+    margin-top:60px;
+}
+
+#section-imgs h2{
+    color:white;
+    font-family: 'Boogaloo';
+    text-align: center;
+    letter-spacing: 7px;
+    padding-bottom: 6px;   
+    text-shadow: 0px 0px 2px white; 
+    font-size: 23px;
+}
+
+.muestras-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-top: 70px;
+}
+
+#section-imgs > .muestras-content > article > h3{
+    text-align: center;
+    color:white;
+    padding-bottom: 19px;
+    text-decoration: underline 2px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(221, 255, 0);
+    text-underline-offset: 7px;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans';
+}
+
+#strong-word{
+    font-size: 40px;
+    margin-left: 23px;
+}
+
+.muestra{
+    width: 244px;
+    height: 310px;
+    border-radius: 36px;
+    box-shadow: 0px 0px 15px gray;
+    margin-top: 8px;
+}
+
+#foto-primera{
+    background:url('img/apt3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+#foto-segunda{
+    background: url('img/apt1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+#foto-tercera{
+    background: url('img/apt2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.btn-info-dpt{
+    display: block;
+    margin: auto;
+    margin-top:29px;
+    width: 140px;
+    height:36px;
+    background-color: rgb(7, 76, 130);
+    color:white;
+    font-weight: bold;
+    padding-left: 4px;
+    border:none;
+    border-radius: 7px;
+    cursor:pointer;
+}
+
+.btn-info-dpt:hover{
+    box-shadow: yellow 0px 0px 10px;
+}
+
+.btn-info-dpt:active{
+    box-shadow: red 0px 0px 10px;
+}
+
+footer{
+    margin-top: 99px;
+    color:white;
+    line-height: 1em;
+    font-size: 13px;
+    text-align: end;
+    padding-right:1em;
+}
