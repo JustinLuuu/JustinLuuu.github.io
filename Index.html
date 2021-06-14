@@ -3,76 +3,118 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/1d9813da54.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>Fondo animado</title>
     <link rel="stylesheet" href="estilos.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1d9813da54.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row d-flex justify-content-center">
-            <div class="col-12 col-md-4 col-lg-4 container-child">
-                <img src="https://github.com/JustinLuuu/JustinLuuu.github.io/blob/main/pinguinoigloo.png?raw=true" alt="pinguino-con-globos">
-                <header class="text-center">
-                    <h1><strong><span>&nbsp;Regístrate</span> ahora&nbsp;</strong></h1>
-                    <h3 class="px-4">¿Qué esperas para activar una cuenta y publicar tu primera oferta de empleo?</h3>
-                </header>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-6 container-child">
-                <main>
-                    <header class="text-center mb-4">
-                        <h4 class="mt-3">Ingrese la información de inicio de sesión para su cuenta</h4>
-                    </header>
-                    <form class="row" action="">
-                        <div class="col-md-6 col-lg-6 mb-3">
-                            <label for="" class="form-label">Nombre<span class="required">#</span></label>
-                            <input type="text" required class="form-control" placeholder="Insertar su nombre">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
-                            <label for="" class="form-label">Apellido<span class="required">#</span></label>
-                            <input type="text" required class="form-control" placeholder="Insertar su apellido">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <div class="col-md-12 col-lg-12 mb-3">
-                            <label for="" class="form-label">Email<span class="required">#</span></label>
-                            <input type="email" required class="form-control" placeholder="Insertar su correo">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="col-md-12 col-lg-12 mb-3">
-                            <label for="" class="form-label">Sitio Web</label>
-                            <input type="url" class="form-control" placeholder="URL">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mb-3">
-                            <label for="" class="form-label">Contraseña<span class="required">#</span></label>
-                            <input type="password" required class="form-control" placeholder="************">
-                            <i class="fas fa-lock"></i>
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 mb-3">
-                            <label for="" class="form-label">Confirmar contraseña<span class="required">#</span></label>
-                            <input type="password" required class="form-control" placeholder="************">
-                            <i class="fas fa-lock"></i>
-                        </div>
-                        <input type="submit" class="btn shadow-sm align-self-center m-auto mt-3 m-0"
-                            value="Crear Cuenta">
-                    </form>
-                    <span class="link-login d-flex justify-content-center w-100 d-block mt-3 mb-3">Ya estas registrado?
-                        <a href="#!" class="ps-2">Inicia sesión</a>
-                    </span>
-                        <a class="btn btn-success w-100 btn-login mt-2" href="#!">Inicia Sesión</a>
-                </main>
+    <header class="contenedor">
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#!">
+                <h3 class="text-white">Gasto Mensual</h3>
+            </a>
+
+            <button type="button" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pe-5" id="menu">
+                <ul class="d-flex ms-auto">
+                    <li class="nav-item">
+                        <a href="#!" class="text-decoration-none">Iniciar</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a href="#!" class="text-decoration-none">Registro</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a href="#!" class="text-decoration-none">Saber más</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+
+
+        <section class="banner row d-flex">
+            <section class="banner-title col-lg-6 col-md-6">
+                <h1>Maneja tu presupuesto del mes!</h1>
+                <a href="#">Comienza ya!</a>
+            </section>
+            <div class="banner-img col-lg-6 col-md-6">
+                <img src="img/main.png" alt="personas-con-dinero">
+            </div>
+        </section>
+
+    </header>
+
+    <section class="saber-mas" style="overflow: hidden;">
+        <header class="pt-5">
+            <h3 class="pt-3">Saber más</h3>
+            <p class="text-center m-4 mt-1">
+                Conoce más sobre las características de este medio
+            </p>
+        </header>
+
+        <div class="row container-fluid d-flex justify-content-center mb-5">
+            <article class="card border-2 text-center col-lg-3 col-md-4">
+                <div class="card-h">
+                    <img src="Img/administracion.png"
+                        width="180px" alt="">
+                        <h3>Administracion</h3>
+                </div>
+                <div class="card-body">
+                    Crea un presupuesto, añade y modifica tus gastos como se te antoje !
+                </div>
+            </article>
+
+            <article class="card border-2 text-center ms-5 col-lg-3 col-md-4">
+                <div class="card-h">
+                    <img src="Img/movil.png"
+                    width="180px" alt="">
+                        <h3>Accesibilidad</h3>
+                </div>
+                <div class="card-body">
+                    Tienes la opción de ingresar a tu espacio a través de cualquier dispositivo
+                </div>
+            </article>
+
+            <article class="card border-2 text-center ms-5 col-lg-3 col-md-4">
+                <div class="card-h">
+                    <img src="img/reloj.png"
+                        width="180px" alt="">
+                        <h3>Tiempo</h3>
+                </div>
+                <div class="card-body">
+                    Luego de un mes de abrir tu presupuesto el mismo será reseteado, este medio
+                    por ahora está diseñado para proyectos a corto plazo !
+                </div>
+            </article>
         </div>
-    </div>
 
+    </section>
+
+
+
+
+    <!--<div class="burbujas">
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+    </div>-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
